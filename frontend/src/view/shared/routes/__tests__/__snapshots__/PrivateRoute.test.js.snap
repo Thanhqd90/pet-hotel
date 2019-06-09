@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`view/shared/routes/PrivateRoute Authenticated with emailVerified and roles opens the page 1`] = `"<div><a href=\\"/private\\">Go to private</a><div data-test=\\"PrivatePage\\">Private Page</div></div>"`;
+
+exports[`view/shared/routes/PrivateRoute Email Unverified redirects to email unverified 1`] = `"<div><a href=\\"/private\\">Go to private</a><div data-test=\\"EmailUnverifiedPage\\">Email Unverified</div></div>"`;
+
+exports[`view/shared/routes/PrivateRoute Empty Permissions redirects to empty permissions 1`] = `"<div><a href=\\"/private\\">Go to private</a><div data-test=\\"EmptyPermissionsPage\\">Empty Permissions</div></div>"`;
+
+exports[`view/shared/routes/PrivateRoute Not Authenticated redirect to login 1`] = `"<div><a href=\\"/private\\">Go to private</a><div data-test=\\"SignInPage\\">Singin Page<div data-test-from=\\"/private\\"></div></div></div>"`;
+
+exports[`view/shared/routes/PrivateRoute Not enough permissions redirects to 403 1`] = `"<div><a href=\\"/private\\">Go to private</a><div data-test=\\"403\\">403</div></div>"`;

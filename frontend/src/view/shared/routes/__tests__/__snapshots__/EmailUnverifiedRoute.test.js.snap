@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`view/shared/routes/EmailUnverifiedRoute Authenticated WITHOUT email verified opens the page 1`] = `"<div><a href=\\"/auth/email-unverified\\">Go to Email Unverified</a><div data-test=\\"EmailUnverifiedPage\\">Email Unverified Page</div></div>"`;
+
+exports[`view/shared/routes/EmailUnverifiedRoute Authenticated with email verified redirect to private 1`] = `"<div><a href=\\"/auth/email-unverified\\">Go to Email Unverified</a><div data-test=\\"PrivatePage\\">Private</div></div>"`;
+
+exports[`view/shared/routes/EmailUnverifiedRoute Not authenticated redirect to signin 1`] = `"<div><a href=\\"/auth/email-unverified\\">Go to Email Unverified</a><div data-test=\\"SignInPage\\">Sign in</div></div>"`;

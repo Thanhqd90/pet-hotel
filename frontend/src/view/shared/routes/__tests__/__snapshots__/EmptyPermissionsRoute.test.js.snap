@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`view/shared/routes/EmptyPermissionsRoute Authenticated with NO permissions opens the page 1`] = `"<div><a href=\\"/auth/empty-permissions\\">Go to Empty Permissions</a><div data-test=\\"EmptyPermissionsPage\\">Empty Permissions Page</div></div>"`;
+
+exports[`view/shared/routes/EmptyPermissionsRoute Authenticated with permissions redirect to private 1`] = `"<div><a href=\\"/auth/empty-permissions\\">Go to Empty Permissions</a><div data-test=\\"PrivatePage\\">Private</div></div>"`;
+
+exports[`view/shared/routes/EmptyPermissionsRoute Not authenticated redirect to signin 1`] = `"<div><a href=\\"/auth/empty-permissions\\">Go to Empty Permissions</a><div data-test=\\"SignInPage\\">Sign in</div></div>"`;

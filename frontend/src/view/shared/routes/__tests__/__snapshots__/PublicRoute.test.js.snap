@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`view/shared/routes/PublicRoute Authenticated redirect to private 1`] = `"<div><a href=\\"/public\\">Go to public</a><div data-test=\\"PrivatePage\\">Private</div></div>"`;
+
+exports[`view/shared/routes/PublicRoute Not authenticated opens the page 1`] = `"<div><a href=\\"/public\\">Go to public</a><div data-test=\\"PublicPage\\">Public Page</div></div>"`;
