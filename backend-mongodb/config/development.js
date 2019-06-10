@@ -17,10 +17,10 @@ module.exports = {
   graphiql: 'true',
 
   project: {
-    name: 'app.title',
+    name: 'Pet Hotel',
     clientUrl:
-      'https://<insert project id here>.firebaseapp.com',
+      'https://pet-hotel-ab507.firebaseapp.com',
   },
 
-  defaultUser: '<insert your email here>',
+  defaultUser: 'thanhqd1990@gmail.com',
 };

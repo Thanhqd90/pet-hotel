@@ -1,2 +1,1 @@
-Version 3.0.0.
-Visit https://scaffoldhub.io/react-antd-mongodb for docs/instructions.
+Full Stack Pet Hotel App made with React and MongoDB

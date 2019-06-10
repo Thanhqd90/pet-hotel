@@ -2,7 +2,7 @@ module.exports = {
   env: 'production',
 
   database: {
-    connection: '<insert connection url here>',
+    connection: 'mongodb://thanh:thanh123@ds235197.mlab.com:35197/pet-hotel',
     transactions: true,
   },
 
@@ -18,9 +18,9 @@ module.exports = {
   graphiql: false,
 
   project: {
-    name: 'app.title',
+    name: 'Pet Hotel',
     clientUrl:
-      'https://<insert project id here>.firebaseapp.com',
+      'https://pet-hotel-ab507.firebaseapp.com',
   },
 
   defaultUser: null,
